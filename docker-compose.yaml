@@ -1,0 +1,6 @@
+services:
+  app:
+    image: blockspacecorp/template-ui-angular:latest
+    container_name: template-ui-angular
+    ports:
+     - 3000:80
